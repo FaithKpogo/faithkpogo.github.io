@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Bootstrap-5/css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="foodwebsite.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img style="width: 150px; height: auto; " src="image/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heroSlider">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#feature">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallary">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-brand">Book a table</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO FAITH RESTAURANT</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Experience Like <span>Never Before</span></h1>
+                            <a href="#" style="font-size: 17px;" class="btn btn-brand">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO FAITH RESTAURANT</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Fresh & <span>Tasty Food</span></h1>
+                            <a href="#" class="btn btn-brand" style="font-size: 17px;">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item text-center bg-cover vh-100 slide-3">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO FAITH RESTAURANT</h6>
+                            <h1 class="display-1 my-3 fw-bold text-white">Join Us For A<span> Taste Adventure</span></h1>
+                            <a href="#" class="btn btn-brand" style="font-size: 17px;">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5">
+                    <img src="image/about_new.png" alt="">
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <h1>About us</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nesciunt voluptates doloribus
+                        quidem. Dignissimos, asperiores molestias?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci velit corporis
+                        debitis blanditiis hic, ipsam magni exercitationem ullam quibusdam a ad!</p>
+                    <a href="#" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                    <h1>Explore Our <span>Menu</span></h1>
+                    <p>Our food menu features a carefully curated selection of dishes that showcase the best in the world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+                </li>
+
+            </ul>
+            
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_1.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_2.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_3.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_4.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_5.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_6.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_7.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_8.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/sandwich.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/lasagna.webp" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item pb-4 bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/biryani.webp" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/buger.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab"tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_2.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_3.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_4.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_8.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_1.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_5.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_6.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/item_7.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/lasagna.webp" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="tab-pane fade show " id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/sandwich.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/biryani.webp" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/buger.jpg" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow justify-content-center">
+                                <div class="menu-img"><img src="image/lasagna.webp" ></div>
+                                
+                                <div class="menu-item-content p-4 ">
+                                    <div>
+                                        <span>Rated(4.5)</span>
+                                        <span class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </span>
+                                        <h4 class="mt-1 mb-2 text-center">Food</h4>
+                                        <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet eaque incid. Lorem ipsum dolor.</p>
+                                        <h5 class="text-center fw-bold">10$</h5>
+                                        <a href="#" class="text-center menu-btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+        </div>    
+    </section>
+
+    <!-- Features -->
+    <section id="feature" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                    <h1 class="fw-bold">Why Choose Us?</h1>
+                    <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab earum voluptas nostrum similique officia ad quisquam molestiae esse dolore explicabo fugiat tempore.</p>
+                </div>
+            </div>
+            <div class="row ry-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bx bx-wifi"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi cum dolor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bx bxs-timer"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi cum dolor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bx bx-user"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Friendly Staff</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi cum dolor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi cum dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                    <h1 class="fw-bold">Our Team Members</h1>
+                    <p>At our restaurant, we take pride in our talented team of chefs who bring their passion for culinary arts to every dish they create.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member border p-4 shadow-on-hover text-center">
+                        <img src="image/team_01.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mt-4 mb-2">David Chang</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member border p-4 shadow-on-hover text-center">
+                        <img src="image/team_02.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mt-4 mb-2">Rick Stein</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member border p-4 shadow-on-hover text-center">
+                        <img src="image/team_03.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mt-4 mb-2">Art Smith</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member border p-4 shadow-on-hover text-center">
+                        <img src="image/team_01.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mt-4 mb-2">Anne Burrell</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallary -->
+    <section id="gallary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                    <h1 class="fw-bold">Our Gallary</h1>
+                    <p>At our restaurant, we take pride in our talented team of chefs who bring their passion for culinary arts to every dish they create.</p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="insta-post">
+                        <img src="image/insta_post01.jpg" alt="">
+                        <a href="#" class="insta-btn">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="insta-post">
+                        <img src="image/insta_post02.jpg" alt="">
+                        <a href="#" class="insta-btn">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="insta-post">
+                        <img src="image/ice_cream.jpg" alt="">
+                        <a href="#" class="insta-btn">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="insta-post">
+                        <img src="image/insta_post04.jpg" alt="">
+                        <a href="#" class="insta-btn">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="insta-post">
+                        <img src="image/pasta.jpg" alt="">
+                        <a href="#" class="insta-btn">
+                            <i style="display: block;" class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="insta-post">
+                        <img src="image/gallary_3.jpg" alt="">
+                        <a href="#" class="insta-btn">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review -->
+    <section id="review" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                    <h1 class="fw-bold">Customer Reviews</h1>
+                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam possimus volupta.</p>
+                </div>
+        </div>
+        <div id="reviewSlider" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="review bg-white p-5 text-center">
+                                <div class="quote-icon"><i class="bx bxs-quote-alt-left"></i></div>
+                                <p class="mb-0">I had an amazing dining experience at this restaurant. The food was delicious with a great variety of options to choose from.The staff were friendly and attentive, making sure all our needs were met. I would definitely recommend this restaurant to anyone.</p>
+                                <div class="person mt-4">
+                                    <img src="image/review_4.png" alt="">
+                                    <h4 class="mb-0 mt-2 fw-bold">Faith</h4>
+                                    <span class="stars">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star-half"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="review bg-white p-5 text-center">
+                                <div class="quote-icon"><i class="bx bxs-quote-alt-left"></i></div>
+                                <p class="mb-0">I had an amazing dining experience at this restaurant. The food was delicious with a great variety of options to choose from.The staff were friendly and attentive, making sure all our needs were met. I would definitely recommend this restaurant to anyone.</p>
+                                <div class="person mt-4">
+                                    <img src="image/review_1.png" alt="">
+                                    <h4 class="mb-0 mt-2 fw-bold">Esther</h4>
+                                    <span class="stars">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star-half"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="review bg-white p-5 text-center">
+                                <div class="quote-icon"><i class="bx bxs-quote-alt-left"></i></div>
+                                <p class="mb-0">I had an amazing dining experience at this restaurant. The food was delicious with a great variety of options to choose from.The staff were friendly and attentive, making sure all our needs were met. I would definitely recommend this restaurant to anyone.</p>
+                                <div class="person mt-4">
+                                    <img src="image/review_3.png" alt="">
+                                    <h4 class="mb-0 mt-2 fw-bold">Jane</h4>
+                                    <span class="stars">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star-half"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    </section>
+
+    <!-- Order --->
+    <section id="order">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                    <h1 class="fw-bold">Customer Reviews</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam possimus volupta.</p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="number" class="form-control" placeholder="Number of persons">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" class="form-control" cols="30" rows="5"placeholder="Message" ></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                           <a href="#" class="btn btn-brand ">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-cover">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <img style="width: 150px; height: auto;" class="mb-4" src="image/logo.png" alt="">
+                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit omnis repellat iure libero a suscipit. Quidem beatae at dolores ea veniam.</p>
+                        <div class="social-link">
+                            <a href="#"><i class="bx bxl-facebook"></i></a>
+                            <a href="#"><i class="bx bxl-instagram"></i></a>
+                            <a href="#"><i class="bx bxl-twitter"></i></a>
+                            <a href="#"><i class="bx bxl-google"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto mt-5">
+                        <h6 class="text-white fw-bold mb-4">CONTACT</h6>
+                        <p class="text-white mb-1">+233 44738044</p>
+                        <p class="text-white mb-1">xorsekpogo@gmail.com</p>
+                        <p class="text-white">Accra-Tema</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="text-white fw-bold mb-4 mt-5">OPENING HOURS</h6>
+                        <p class="text-white mb-1">Monday-Friday: 8:00 - 22:00</p>
+                        <p class="text-white">Saturday-Sunday: 8:00 - 19:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyrights all rights reserved.</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed by <span>XorseKpogo</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script type="text/javascript" src="Bootstrap-5/js/bootstrap.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
